@@ -1,0 +1,167 @@
+body {
+	max-width: 1920px;
+	top: 0;
+	margin:0 auto;
+	padding:0;
+}
+
+hr {
+	background: url(image/hr.png);
+}
+
+#nav {
+	margin: 0 auto;
+	width: 1024px;
+}
+
+li {float: left;
+padding-top:15px;}
+
+li a {
+	color: white;
+	text-decoration: none;
+	padding-right: 30px;
+	padding-left: 50px
+}
+
+#header {
+	background: black;
+	position: fixed;
+	margin: 0 auto;
+	height: 50px;
+	width: 100%;
+	max-width: 1920px;
+	z-index: 1000;
+}
+
+#home {
+	background: url(image/bg1.jpg) 50% 0 repeat fixed; 
+	height: 700px;  
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    }
+
+#middletitle {
+	background: black;
+	text-align: center;
+	top: 0;
+	height: 135px;
+}
+
+#by {
+	background: white; 
+	height: 150px;  
+	margin: 0; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    }
+
+#information {
+	background: url(image/bg.jpg) repeat fixed; 
+	height: 700px;  
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+   box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    }
+
+#facilities {
+	background: red; 
+	text-align: center;
+	height: 100px;  
+	margin: 0 auto; 
+	padding-top: 50px;
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    }
+
+#contact {
+	background: black; 
+	height: 140px;  
+	margin: 0 auto; 
+	text-align: center;
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    }
+
+#home article { 
+	background: url(image/title1.png) no-repeat scroll center top transparent;
+	height: 100%; 
+	position: absolute; 
+	text-indent: -9999px; 
+	top: 100px; 
+	width: 100%; 
+}
+
+
+
+#by article {
+	background: url(image/workshopby.png) no-repeat scroll center top transparent;
+	height: 100px;
+	position: absolute;
+	text-indent: -9999px;
+	top: 30px;
+	width: 100%
+}
+
+/* float clearing for IE6 */
+* html .clearfix{
+	height: 1%;
+	overflow: visible;
+}
+/* float clearing for IE7 */
+*+html .clearfix{
+	min-height: 1%;
+}
+/* float clearing for everyone else */
+.clearfix:after{
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	font-size: 0;
+}
+
+.content {
+	padding-top: 15%;
+    margin-bottom: -117px;
+    position: relative;
+    display: block;	
+	color: #000
+}
+
+#information .venue {
+	background: white;
+	margin:60px auto;
+	width: 500px;
+	height: 600px;
+	float: left;
+	text-align: center;
+	
+}
+
+#information .detail {
+	background: white;
+	margin:60px auto;
+	width: 500px;
+	height: 600px;
+	float: right;
+	text-align: center;
+	
+}
+
+#info {
+	margin: 0 auto;
+	width: 1024px
+}
